@@ -1,0 +1,27 @@
+//- Все примеси в этом файле должны начинаться c имени блока (profession)
+
+mixin profession(text, mods)
+
+  //- Принимает:
+  //-   text    {string} - текст
+  //-   mods    {string} - список модификаторов
+  //- Вызов:
+        +profession('Текст', 'some-mod')
+
+  -
+    // список модификаторов
+    var allMods = '';
+    if(typeof(mods) !== 'undefined' && mods) {
+      var modsList = mods.split(',');
+      for (var i = 0; i < modsList.length; i++) {
+        allMods = allMods + ' profession--' + modsList[i].trim();
+      }
+    }
+
+  .profession(class=allMods)&attributes(attributes)
+    .profession__inner
+      .profession__rectangle
+        .profession__title мир мангалов
+      .profession__content
+        p.profession__subtitle Мангалы и Барбекю - это наша профессия
+        .profession__description Творческая мастерская Мир Мангалов занимается изготовлением и продажей мангалов в Казани и районах города. Большой выбор и доступные цены делают нас лидерами на рынке. У нас имеются готовые модели, а также можем изготовить мангал по вашим размерам.

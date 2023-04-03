@@ -1,0 +1,44 @@
+//- Все примеси в этом файле должны начинаться c имени блока (instruments)
+
+mixin instruments(card)
+
+  //- Принимает:
+  //-   text    {string} - текст
+  //-   mods    {string} - список модификаторов
+  //- Вызов:
+        +instruments('Текст', 'some-mod')
+
+  -
+    // список модификаторов
+    var allMods = '';
+    if(typeof(mods) !== 'undefined' && mods) {
+      var modsList = mods.split(',');
+      for (var i = 0; i < modsList.length; i++) {
+        allMods = allMods + ' instruments--' + modsList[i].trim();
+      }
+    }
+
+  li.instruments__card(class=allMods)&attributes(attributes)
+    .instruments__card-inner.link(href= '#' + card.href)
+      .instruments__content
+        .instruments__info
+          +carousel(card.images)
+        h3.instruments__title!= card.title
+        .instruments__advantages
+          .instruments__price.instruments__row
+            svg.instruments__icon
+              use(href='/img/svgSprite.svg#' + card.icon)
+            .
+              #{card.price}
+          p.instruments__availability.instruments__row
+            svg.instruments__icon
+              use(href='/img/svgSprite.svg#' + card.icon)
+            .
+              #{card.availability}
+          p.instruments__guarantee.instruments__row
+            svg.instruments__icon
+              use(href='/img/svgSprite.svg#' + card.icon)
+            .
+              #{card.guarantee}
+      .instruments__example
+        block

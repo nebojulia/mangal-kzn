@@ -1,0 +1,17 @@
+.carousel {
+  $block-name: &; // #{$block-name}__element
+
+  width: 100%;
+  height: 420px;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__img {
+    //height: 90%;
+    width: 70%;
+  }
+}

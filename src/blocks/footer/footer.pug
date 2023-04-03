@@ -1,0 +1,37 @@
+//- Все примеси в этом файле должны начинаться c имени блока (footer)
+
+mixin footer(mods)
+
+  //- Принимает:
+  //-   mods    {string} - список модификаторов
+  //- Вызов:
+        +footer('some-mod')
+
+  -
+    // список модификаторов
+    var allMods = '';
+    if(typeof(mods) !== 'undefined' && mods) {
+      var modsList = mods.split(',');
+      for (var i = 0; i < modsList.length; i++) {
+        allMods = allMods + ' footer--' + modsList[i].trim();
+      }
+    }
+
+  .footer(class=allMods)&attributes(attributes)
+    .container
+      .footer__inner
+        .footer__info
+          each section in footer.section
+            .footer__section
+              a.footer__section-title.link!= section.title
+              if section.list
+                ul.footer__list
+                  each item in section.list
+                    li.footer__item
+                      a.footer__link(href= item.href)
+                        svg.footer__icon
+                          use(href='/img/svgSprite.svg#' + item.icon)
+                        | #{item.title}
+        .footer__rights
+          each info in footer.info
+            .footer__info-title.link!= info.title

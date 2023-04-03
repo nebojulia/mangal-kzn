@@ -1,0 +1,23 @@
+//- Все примеси в этом файле должны начинаться c имени блока (cooking)
+
+mixin cooking(text, mods)
+
+  //- Принимает:
+  //-   text    {string} - текст
+  //-   mods    {string} - список модификаторов
+  //- Вызов:
+        +cooking('Текст', 'some-mod')
+
+  -
+    // список модификаторов
+    var allMods = '';
+    if(typeof(mods) !== 'undefined' && mods) {
+      var modsList = mods.split(',');
+      for (var i = 0; i < modsList.length; i++) {
+        allMods = allMods + ' cooking--' + modsList[i].trim();
+      }
+    }
+
+  .cooking(class=allMods)&attributes(attributes)
+    .cooking__inner
+      p.cooking__text пора готовить профессионально

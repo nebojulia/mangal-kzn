@@ -1,0 +1,44 @@
+//- Все примеси в этом файле должны начинаться c имени блока (grills)
+
+mixin grills(card)
+
+  //- Принимает:
+  //-   text    {string} - текст
+  //-   mods    {string} - список модификаторов
+  //- Вызов:
+        +grills('Текст', 'some-mod')
+
+  -
+    // список модификаторов
+    var allMods = '';
+    if(typeof(mods) !== 'undefined' && mods) {
+      var modsList = mods.split(',');
+      for (var i = 0; i < modsList.length; i++) {
+        allMods = allMods + ' grills--' + modsList[i].trim();
+      }
+    }
+
+  li.grills__card(class=allMods)&attributes(attributes)
+    .grills__card-inner.link(href= '#' + card.href)
+      .grills__content
+        .grills__info
+          +carousel(card.images)
+        h3.grills__title!= card.title
+        .grills__advantages
+          .grills__price.grills__row
+            svg.grills__icon
+              use(href='/img/svgSprite.svg#' + card.icon)
+            .
+              #{card.price}
+          p.grills__availability.grills__row
+            svg.grills__icon
+              use(href='/img/svgSprite.svg#' + card.icon)
+            .
+              #{card.availability}
+          p.grills__guarantee.grills__row
+            svg.grills__icon
+              use(href='/img/svgSprite.svg#' + card.icon)
+            .
+              #{card.guarantee}
+      .grills__example
+        block

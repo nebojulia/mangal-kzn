@@ -1,0 +1,32 @@
+.button {
+  $block-name: &; // #{$block-name}__element
+
+  &--primary {
+    display: flex;
+    align-items: center;
+    padding: 8px 24px;
+    color: var(--color-white);
+    font-size: 20px;
+    text-decoration: none;
+    background: var(--brand-primary);
+    border-radius: 4px;
+  }
+
+  &--secondary {
+    display: flex;
+    align-items: center;
+    padding: 8px 24px;
+    color: var(--color-white);
+    font-size: 20px;
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid var(--brand-secondary);
+    border-radius: 4px;
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+}

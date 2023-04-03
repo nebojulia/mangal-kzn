@@ -1,0 +1,40 @@
+.header {
+  $block-name: &; // #{$block-name}__element
+
+  background: var(--color-black);
+
+  &__inner {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-white);
+  }
+
+  &__section-title {
+    color: var(--color-white);
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+
+  &__logo {
+    width: 75px;
+    height: 75px;
+  }
+
+  &__img {
+    width: 75px;
+    height: 75px;
+  }
+
+  &__nav {
+    display: none;
+    justify-content: space-around;
+    width: 700px;
+
+    @media (min-width: 768px) {
+      display: flex;
+    }
+  }
+}

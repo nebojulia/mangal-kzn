@@ -1,0 +1,33 @@
+//- Все примеси в этом файле должны начинаться c имени блока (hero)
+
+mixin hero(mods)
+
+  //- Принимает:
+  //-   mods    {string} - список модификаторов
+  //- Вызов:
+        +hero('some-mod')
+
+  -
+    // список модификаторов
+    var allMods = '';
+    if(typeof(mods) !== 'undefined' && mods) {
+      var modsList = mods.split(',');
+      for (var i = 0; i < modsList.length; i++) {
+        allMods = allMods + ' hero--' + modsList[i].trim();
+      }
+    }
+
+  .hero(class=allMods)&attributes(attributes)
+    .container
+      .hero__inner
+        h1.hero__title Мангалы в Казани
+        ul.hero__list
+          each section in hero.section
+            li.hero__section
+              a.hero__section-title.link(href= section.href)
+                svg.hero__icons
+                  use(href='/img/svgSprite.svg#' + section.icon)
+                | #{section.title}
+        .hero__buttons
+          +button('link', '8-904-765-98-87', 'primary', '', 'button-phone', 'tel:+79047659887', 'footer__phone')
+          +button('link', 'WhatsApp', 'secondary', '', 'button-phone', 'https://wa.me/79047659887', 'footer__whatsapp')

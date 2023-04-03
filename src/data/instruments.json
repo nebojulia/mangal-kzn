@@ -1,0 +1,66 @@
+{
+    "section": [
+        {
+            "images": [
+                {"item": "instruments__kocherga.jpg" },
+                {"item": "instruments__kocherga-properties.jpg"}
+            ],
+            "title": "Кочерга",
+            "href": "#",
+            "price": "15500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "instruments__reshetka.jpg" },
+                {"item": "instruments__reshetka-properties.jpg"}
+            ],
+            "title": "Решетка",
+            "href": "#",
+            "price": "15500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "instruments__reshetka-s-ruchkami.jpg" },
+                {"item": "instruments__reshetka-s-ruchkami-properties.jpg"}
+            ],
+            "title": "Решетка с ручками",
+            "href": "#",
+            "price": "15500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "instruments__savok.jpg" },
+                {"item": "instruments__savok-properties.jpg"}
+            ],
+            "title": "Савок",
+            "href": "#",
+            "price": "15500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "instruments__shampur.jpg" },
+                {"item": "instruments__shampur-2.jpg" },
+                {"item": "instruments__shampur-3.jpg" },
+                {"item": "instruments__shampur-properties.jpg"}
+            ],
+            "title": "Шампур",
+            "href": "#",
+            "price": "15500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        }        
+    ]
+}

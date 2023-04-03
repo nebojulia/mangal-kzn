@@ -1,0 +1,34 @@
+{
+    "section": [
+        {
+            "title": "Мангалы",
+            "href": "#mangals",
+            "icon": "mangals"
+        },
+        {
+            "title": "Гриль-барбекю",
+            "href": "#grills",
+            "icon": "grill"
+        },
+        {
+            "title": "Костровые чаши",
+            "href": "#firecups",
+            "icon": "firecup"
+        },
+        {
+            "title": "Комплектующие",
+            "href": "#instruments",
+            "icon": "instruments"
+        },
+        {
+            "title": "Под заказ",
+            "href": "#fororder",
+            "icon": "fororder"
+        },
+        {
+            "title": "Доступные цены",
+            "href": "#price",
+            "icon": "price"
+        }
+    ]
+}

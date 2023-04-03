@@ -1,0 +1,173 @@
+{
+    "section": [
+        {
+            "images": [
+                {"item": "mangal__dva-polyusa.jpg" },
+                {"item": "mangal-dva-polyusa-advantages.jpg"},
+                {"item": "mangal-dva-polyusa-complect.jpg"},
+                {"item": "mangal-dva-polyusa-materials.jpg"}
+            ],
+            "title": "Два полюса",
+            "href": "#",
+            "price": "15500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "mangal__dva-polyusa-grill.jpg"},
+                {"item": "mangal__dva-polyusa-grill-advantages.jpg" },
+                {"item": "mangal__dva-polyusa-grill-complect.jpg"},
+                {"item": "mangal__dva-polyusa-grill-materials.jpg"}
+            ],
+            "title": "Два полюса с крышкой гриль",
+            "href": "#",
+            "price": "17500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "mangal-loft.jpg"},
+                {"item": "mangal-loft-advantages.jpg" },
+                {"item": "mangal-loft-complect.jpg"},
+                {"item": "mangal-loft-materials.jpg"}
+            ],
+            "title": "Лофт",
+            "href": "#",
+            "price": "15500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "mangal__loft-grill.jpg"},
+                {"item": "mangal__loft-grill-advantages.jpg" },
+                {"item": "mangal__loft-grill-complect.jpg"},
+                {"item": "mangal__loft-grill-materials.jpg"}
+            ],
+            "title": "Лофт с крышкой гриль",
+            "href": "#",
+            "price": "17500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "mangal__elbrus.jpg"},
+                {"item": "mangal__elbrus-advantages.jpg" },
+                {"item": "mangal__elbrus-complect.jpg"},
+                {"item": "mangal__elbrus-materials.jpg"}
+            ],
+            "title": "Эльбрус",
+            "href": "#",
+            "price": "23500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "mangal__krepish.jpg"},
+                {"item": "mangal__krepish-advantages.jpg" },
+                {"item": "mangal__krepish-complect.jpg"},
+                {"item": "mangal__krepish-materials.jpg"}
+            ],
+            "title": "Крепыш",
+            "href": "#",
+            "price": "15500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "mangal__profi.jpg"},
+                {"item": "mangal__profi-advantages.jpg" },
+                {"item": "mangal__profi-complect.jpg"},
+                {"item": "mangal__profi-materials.jpg"}
+            ],
+            "title": "Профи",
+            "href": "#",
+            "price": "9500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "mangal__semejnyj.jpg"},
+                {"item": "mangal__semejnyj-advantages.jpg" },
+                {"item": "mangal__semejnyj-complect.jpg"},
+                {"item": "mangal__semejnyj-materials.jpg"}
+            ],
+            "title": "Семейный",
+            "href": "#",
+            "price": "15500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "mangal__semejnyj-grill.jpg"},
+                {"item": "mangal__semejnyj-grill-advantages.jpg" },
+                {"item": "mangal__semejnyj-grill-complect.jpg"},
+                {"item": "mangal__semejnyj-grill-materials.jpg"}
+            ],
+            "title": "Семейный с крышкой гриль",
+            "href": "#",
+            "price": "18000 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "mangal__turist.jpg"},
+                {"item": "mangal__turist-advantages.jpg" },
+                {"item": "mangal__turist-materials.jpg"}
+            ],
+            "title": "Турист",
+            "href": "#",
+            "price": "4000 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "mangal-udachnyj.jpg"},
+                {"item": "mangal-udachnyj-advantages.jpg" },
+                {"item": "mangal-udachnyj-complect.jpg"},
+                {"item": "mangal-udachnyj-materials.jpg"}
+            ],
+            "title": "Удачный",
+            "href": "#",
+            "price": "8500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "mangal__piknik-bolshoj.jpg"},
+                {"item": "mangal__piknik-bolshoj-advantages.jpg" },
+                {"item": "mangal__piknik-bolshoj-materials.jpg"},
+                {"item": "mangal-piknik-malenkij.jpg"},
+                {"item": "mangal-piknik-malenkij-advantages.jpg" },
+                {"item": "mangal-piknik-malenkij-materials.jpg"}
+            ],
+            "title": "Пикник",
+            "href": "#",
+            "price": "1400 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+//- Все примеси в этом файле должны начинаться c имени блока (carousel)
+
+mixin carousel(array)
+
+    //- Принимает:
+    //-   image    {image} - текст
+    //- Вызов:
+                +carousel('image')
+
+    -
+        //список модификаторов
+        var allMods = '';
+        if(typeof(mods) !== 'undefined' && mods) {
+            var modsList = mods.split(',');
+            for (var i = 0; i < modsList.length; i++) {
+                allMods = allMods + ' carousel--' + modsList[i].trim();
+            }
+        }
+
+    .carousel.swiper(class=allMods)&attributes(attributes)
+        .swiper-wrapper
+            each slide in array ? array : ''
+                .swiper-slide.carousel__inner
+                    img.carousel__img(src='/img/' + slide.item, alt='mangal pic')
+        .swiper-pagination
+        .swiper-button-prev.carousel__prev
+        .swiper-button-next.carousel__next

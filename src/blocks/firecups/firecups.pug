@@ -1,0 +1,44 @@
+//- Все примеси в этом файле должны начинаться c имени блока (firecups)
+
+mixin firecups(card)
+
+  //- Принимает:
+  //-   text    {string} - текст
+  //-   mods    {string} - список модификаторов
+  //- Вызов:
+        +firecups('Текст', 'some-mod')
+
+  -
+    // список модификаторов
+    var allMods = '';
+    if(typeof(mods) !== 'undefined' && mods) {
+      var modsList = mods.split(',');
+      for (var i = 0; i < modsList.length; i++) {
+        allMods = allMods + ' firecups--' + modsList[i].trim();
+      }
+    }
+
+  li.firecups__card(class=allMods)&attributes(attributes)
+    .firecups__card-inner.link(href= '#' + card.href)
+      .firecups__content
+        .firecups__info
+          +carousel(card.images)
+        h3.firecups__title!= card.title
+        .firecups__advantages
+          .firecups__price.firecups__row
+            svg.firecups__icon
+              use(href='/img/svgSprite.svg#' + card.icon)
+            .
+              #{card.price}
+          p.firecups__availability.firecups__row
+            svg.firecups__icon
+              use(href='/img/svgSprite.svg#' + card.icon)
+            .
+              #{card.availability}
+          p.firecups__guarantee.firecups__row
+            svg.firecups__icon
+              use(href='/img/svgSprite.svg#' + card.icon)
+            .
+              #{card.guarantee}
+      .firecups__example
+        block

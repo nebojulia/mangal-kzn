@@ -1,0 +1,40 @@
+{
+    "section": [
+        {
+            "image": "products__mangal.jpg",
+            "title": "Мангалы",
+            "href": "#mangals",
+            "price": "От 8500 - 18000 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "image": "products__grill.jpg",
+            "title": "Гриль-барбекю",
+            "href": "#grills",
+            "price": "От 43000 - 44000 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "image": "products__firecup.jpg",
+            "title": "Костровые чаши",
+            "href": "#firecups",
+            "price": "От 8500 - 18000 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "image": "products__instruments.jpg",
+            "title": "Комплектующие",
+            "href": "#instruments",
+            "price": "От 2000 - 5000 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        }
+    ]
+}

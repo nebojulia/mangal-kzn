@@ -1,0 +1,11 @@
+.container {
+  $block-name: &; // #{$block-name}__element
+
+  width: calc(100% - 3rem);
+  max-width: 160rem;
+  margin: 0 auto;
+
+  @media screen and (min-width: $screen-t) {
+    width: calc(100% - 8rem);
+  }
+}

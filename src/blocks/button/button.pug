@@ -1,0 +1,38 @@
+//- Все примеси в этом файле должны начинаться c имени блока (button)
+
+mixin button(type, title, mods, name, id, href, icon)
+  //- Принимает:
+    //-   type    {string} - тип [input|button|submit|reset|link]
+    //-   title   {string} - текст кнопки
+    //-   mods    {string} - список модификаторов
+    //-   href    {string} - адрес, если тип «ссылка»
+    //- Вызов:
+          +button('input', 'I’m button', 'primary', 'button-name', 'button-id')
+          +button('link', 'I’m button', 'primary', 'button-name', 'button-id', '#anchor')
+
+  -
+    // список модификаторов
+    var allMods = '';
+    if (typeof (mods) !== 'undefined' && mods) {
+      var modsList = mods.split(',');
+      for (var i = 0; i < modsList.length; i++) {
+        allMods = allMods + ' button--' + modsList[i].trim();
+      }
+    }
+
+  if type === 'input'
+    input.button(type='button', class= allMods, name= name, id= id, value= title)&attributes(attributes)
+  if type === 'button'
+    button.button(class= allMods, name= name, id= id)&attributes(attributes)
+      span.button__title!= title
+  if type === 'submit'
+    button.button(class= allMods, name= name, id= id)&attributes(attributes)
+      span.button__title!= title
+  if type === 'reset'
+    button.button(class= allMods, name= name, id= id)&attributes(attributes)
+      span.button__title!= title
+  if type === 'link'
+    a.button(class= allMods, test='test', id= id, href= href)&attributes(attributes)
+      svg.button__icon
+        use(href='/img/svgSprite.svg#' + icon)
+      | #{title}

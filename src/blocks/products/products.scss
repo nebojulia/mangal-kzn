@@ -1,0 +1,67 @@
+.products {
+  $block-name: &; // #{$block-name}__element
+
+  padding: 24px 16px;
+  background: var(--bg-white);
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin: -130px 0 -70px;
+    padding: 0;
+  }
+
+  &__card {
+    list-style-type: none;
+    background: var(--bg-white);
+    border-radius: 12px;
+    box-shadow: 5px 5px 25px -10px grey;
+  }
+
+  &__card:hover {
+    transform: translate(0, -4px);
+  }
+
+  &__card-inner {
+    text-decoration: none;
+    border-radius: 8px;
+  }
+
+  &__image-item {
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  &__icon {
+    width: 16px;
+    height: 16px;
+    color: var(--brand-primary);
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin: 0;
+    color: var(--bg-white);
+    background: var(--brand-primary);
+  }
+
+  &__advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px;
+    color: var(--bg-black);
+  }
+
+  &__row {
+    display: flex;
+    gap: 8px;
+    margin: 0;
+  }
+}

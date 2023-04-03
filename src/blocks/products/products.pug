@@ -1,0 +1,44 @@
+//- Все примеси в этом файле должны начинаться c имени блока (products)
+
+mixin products(card)
+
+  //- Принимает:
+  //-   data    {object} - объект
+  //-   mods    {string} - список модификаторов
+  //- Вызов:
+        +products(object, 'some-mod')
+
+  -
+    // список модификаторов
+    var allMods = '';
+    if(typeof(mods) !== 'undefined' && mods) {
+      var modsList = mods.split(',');
+      for (var i = 0; i < modsList.length; i++) {
+        allMods = allMods + ' products--' + modsList[i].trim();
+      }
+    }
+
+  li.products__card(class=allMods)&attributes(attributes)
+    a.products__card-inner.link(href= card.href)
+      .products__info
+        .products__image
+          img.products__image-item(src="/img/" + card.image, alt='product pic')
+        h3.products__title!= card.title
+        .products__advantages
+          .products__price.products__row
+            svg.products__icon
+              use(href='/img/svgSprite.svg#' + card.icon)
+            .
+              #{card.price}
+          p.products__availability.products__row
+            svg.products__icon
+              use(href='/img/svgSprite.svg#' + card.icon)
+            .
+              #{card.availability}
+          p.products__guarantee.products__row
+            svg.products__icon
+              use(href='/img/svgSprite.svg#' + card.icon)
+            .
+              #{card.guarantee}
+      .products__example
+        block

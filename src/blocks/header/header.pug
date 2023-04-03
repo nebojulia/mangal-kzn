@@ -1,0 +1,27 @@
+//- Все примеси в этом файле должны начинаться c имени блока (header)
+
+mixin header(mods)
+
+  //- Принимает:
+  //-   mods    {string} - список модификаторов
+  //- Вызов:
+        +header('some-mod')
+
+  -
+    // список модификаторов
+    var allMods = '';
+    if(typeof(mods) !== 'undefined' && mods) {
+      var modsList = mods.split(',');
+      for (var i = 0; i < modsList.length; i++) {
+        allMods = allMods + ' header--' + modsList[i].trim();
+      }
+    }
+
+  .header(class=allMods)&attributes(attributes)
+    .container
+      .header__inner
+        a.header__logo
+          img.header__img(src='/img/logo.jpg', alt='logo')
+        nav.header__nav
+          each section in nav.section
+            a.header__section-title.link(href= section.href)!= section.title

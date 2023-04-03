@@ -1,0 +1,102 @@
+{
+    "section": [
+        {
+            "images": [
+                {"item": "chasha__hockey.jpg" },
+                {"item": "chasha__hockey-advantages.jpg"}
+            ],
+            "title": "Хоккей",
+            "href": "#",
+            "price": "15500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "chasha__kub.jpg" },
+                {"item": "chasha__kub-advantages.jpg"}
+            ],
+            "title": "Куб",
+            "href": "#",
+            "price": "15500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "chasha__listya.jpg" },
+                {"item": "chasha__listya-2.jpg" },
+                {"item": "chasha__listya-advantages.jpg"}
+            ],
+            "title": "Листья",
+            "href": "#",
+            "price": "15500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "chasha__olen.jpg" },
+                {"item": "chasha__olen-advantages.jpg"}
+            ],
+            "title": "Олень",
+            "href": "#",
+            "price": "15500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "chasha-stars.jpg" },
+                {"item": "chasha-stars-advantages.jpg"}
+            ],
+            "title": "Звёзды",
+            "href": "#",
+            "price": "15500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "chasha__sun.jpg" },
+                {"item": "chasha__sun-advantages.jpg"}
+            ],
+            "title": "Солнце",
+            "href": "#",
+            "price": "15500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "chasha__tajga.jpg" },
+                {"item": "chasha__tajga-advantages.jpg"}
+            ],
+            "title": "Тайга",
+            "href": "#",
+            "price": "15500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        },
+        {
+            "images": [
+                {"item": "chasha__volk.jpg" },
+                {"item": "chasha__volk-2.jpg" },
+                {"item": "chasha__volk-advantages.jpg"}
+            ],
+            "title": "Волк",
+            "href": "#",
+            "price": "15500 ₽",
+            "availability": "В наличии и под заказ",
+            "icon": "check",
+            "guarantee": "Гарантия и доставка"
+        }
+    ]
+}

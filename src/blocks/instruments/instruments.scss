@@ -1,0 +1,76 @@
+.instruments {
+  $block-name: &; // #{$block-name}__element
+
+  padding: 24px 16px;
+  background: var(--bg-gray);
+
+  @media (min-width: 968px) {
+    padding: 24px 64px;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0 70px;
+    padding: 0;
+  }
+
+  &__card {
+    width: 380px;
+    list-style-type: none;
+    background: var(--bg-white);
+    border-radius: 12px;
+    box-shadow: 5px 5px 25px -10px grey;
+  }
+
+  &__card-inner {
+    text-decoration: none;
+    border-radius: 8px;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__image-item {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  &__icon {
+    width: 16px;
+    height: 16px;
+    color: var(--brand-primary);
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin: 0;
+    color: var(--bg-white);
+    text-transform: uppercase;
+    background: var(--brand-primary);
+  }
+
+  &__advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px;
+    color: var(--bg-black);
+  }
+
+  &__row {
+    display: flex;
+    gap: 8px;
+    margin: 0;
+  }
+}

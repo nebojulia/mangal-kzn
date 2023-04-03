@@ -1,0 +1,115 @@
+@import "fluid";
+
+@mixin body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+@mixin button-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1429;
+}
+
+@mixin footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.1429;
+}
+
+@mixin nav-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.7143;
+}
+
+@mixin nav-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.1429;
+}
+
+@mixin hero-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+
+  @media screen and (min-width: $screen-t) {
+    font-size: 56px;
+  }
+}
+
+@mixin hero-descr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+
+  @media screen and (min-width: $screen-t) {
+    font-size: 24px;
+  }
+}
+
+@mixin library-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+@mixin library-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: -0.01em;
+}
+
+@mixin library-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+@mixin fluid-text {
+  font-size: fluid(24, 32, 320, 768);
+
+  @media screen and (min-width: $screen-ti) {
+    font-size: fluid(32, 48, 768, 1280);
+  }
+
+  @media screen and (min-width: $screen-d) {
+    font-size: 48px;
+  }
+}
+
+@mixin checkbox-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.1429;
+}
+
+@mixin input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+
+@mixin textarea {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+@mixin field {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.1429;
+}
+
+@mixin tabs-label {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.1429;
+}
