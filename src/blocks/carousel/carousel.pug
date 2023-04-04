@@ -22,6 +22,6 @@ mixin carousel(array)
             each slide in array ? array : ''
                 .swiper-slide.carousel__inner
                     img.carousel__img(src='/img/' + slide.item, alt='mangal pic')
-        .swiper-pagination
+        .swiper-pagination.carousel__pagination
         .swiper-button-prev.carousel__prev
         .swiper-button-next.carousel__next

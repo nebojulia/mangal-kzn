@@ -7,7 +7,7 @@
             ],
             "title": "Хоккей",
             "href": "#",
-            "price": "15500 ₽",
+            "price": "15000 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"
@@ -19,20 +19,7 @@
             ],
             "title": "Куб",
             "href": "#",
-            "price": "15500 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
-        },
-        {
-            "images": [
-                {"item": "chasha__listya.jpg" },
-                {"item": "chasha__listya-2.jpg" },
-                {"item": "chasha__listya-advantages.jpg"}
-            ],
-            "title": "Листья",
-            "href": "#",
-            "price": "15500 ₽",
+            "price": "18000 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"
@@ -44,7 +31,7 @@
             ],
             "title": "Олень",
             "href": "#",
-            "price": "15500 ₽",
+            "price": "7000 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"
@@ -56,7 +43,7 @@
             ],
             "title": "Звёзды",
             "href": "#",
-            "price": "15500 ₽",
+            "price": "15000 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"
@@ -68,7 +55,7 @@
             ],
             "title": "Солнце",
             "href": "#",
-            "price": "15500 ₽",
+            "price": "15000 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"
@@ -80,7 +67,7 @@
             ],
             "title": "Тайга",
             "href": "#",
-            "price": "15500 ₽",
+            "price": "15000 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"
@@ -93,7 +80,7 @@
             ],
             "title": "Волк",
             "href": "#",
-            "price": "15500 ₽",
+            "price": "13000 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"

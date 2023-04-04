@@ -1,0 +1,50 @@
+// В этом файле должны быть стили для БЭМ-блока video, его элементов,
+// модификаторов, псевдоселекторов, псевдоэлементов, @media-условий...
+// Очередность: http://nicothin.github.io/idiomatic-pre-CSS/#priority
+
+.video {
+  aspect-ratio: 16/10;
+  display: flex;
+
+  @media screen and (min-width: $screen-t) {
+    height: 60rem;
+    background: url("../img/bg__video.jpg") no-repeat center;
+    aspect-ratio: auto;
+  }
+
+  &__slider {
+    width: 100%;
+    max-width: 64rem;
+    height: 100%;
+    max-height: 36rem;
+    margin: auto;
+  }
+
+  &__frame {
+    display: flex;
+    //margin: auto;
+    //max-height: 36rem;
+    //max-width: 64rem;
+    width: 100%;
+    height: 100%;
+    //background: url('../img/img__video.jpg') no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+
+    &_01 {
+      background: url("../img/img__video_01.jpg") no-repeat center;
+      background-size: cover;
+    }
+
+    &_02 {
+      background: url("../img/img__video_02.jpg") no-repeat center;
+      background-size: cover;
+    }
+  }
+
+  &__icon {
+    width: 6.4rem;
+    height: 6.4rem;
+    margin: auto;
+  }
+}

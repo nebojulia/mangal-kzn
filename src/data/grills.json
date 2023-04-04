@@ -9,57 +9,9 @@
                 {"item": "grill__bogatyr-1-properties.jpg"},
                 {"item": "grill__bogatyr-1-roaster.jpg"}
             ],
-            "title": "Богатырь-1",
+            "title": "Богатырь",
             "href": "#",
-            "price": "15500 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
-        },
-        {
-            "images": [
-                {"item": "grill__bogatyr-2.jpg" },
-                {"item": "grill__bogatyr-2-advantages.jpg"},
-                {"item": "grill__bogatyr-2-complect.jpg"},
-                {"item": "grill__bogatyr-2-materials.jpg"},
-                {"item": "grill__bogatyr-2-properties.jpg"},
-                {"item": "grill__bogatyr-2-roaster.jpg"}
-            ],
-            "title": "Богатырь-2",
-            "href": "#",
-            "price": "15500 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
-        },
-        {
-            "images": [
-                {"item": "grill__bogatyr-lyuks.jpg" },
-                {"item": "grill__bogatyr-lyuks-advantages.jpg"},
-                {"item": "grill__bogatyr-lyuks-complect.jpg"},
-                {"item": "grill__bogatyr-lyuks-materials.jpg"},
-                {"item": "grill__bogatyr-lyuks-properties.jpg"},
-                {"item": "grill__bogatyr-lyuks-roaster.jpg"}
-            ],
-            "title": "Богатырь Люкс",
-            "href": "#",
-            "price": "15500 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
-        },
-        {
-            "images": [
-                {"item": "grill__elbrus.jpg" },
-                {"item": "grill__elbrus-advantages.jpg"},
-                {"item": "grill__elbrus-complect.jpg"},
-                {"item": "grill__elbrus-materials.jpg"},
-                {"item": "grill__elbrus-properties.jpg"},
-                {"item": "grill__elbrus-roaster.jpg"}
-            ],
-            "title": "Эльбрус",
-            "href": "#",
-            "price": "15500 ₽",
+            "price": "38000 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"

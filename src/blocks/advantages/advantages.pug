@@ -20,7 +20,8 @@ mixin advantages(text, mods)
 
   .advantages(class=allMods)&attributes(attributes)
     .advantages__inner
-      ul.advantages__list
+      +video
+      //ul.advantages__list
         each item in advantages.section
           li.advantages__list-item
             svg.advantages__icon

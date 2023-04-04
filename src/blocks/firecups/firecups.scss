@@ -8,6 +8,15 @@
     padding: 24px 64px;
   }
 
+  &__header {
+    color: white;
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    background: var(--brand-primary);
+    border-radius: 20px;
+  }
+
   &__list {
     display: flex;
     flex-wrap: wrap;
@@ -19,7 +28,7 @@
   }
 
   &__card {
-    width: 380px;
+    width: 360px;
     list-style-type: none;
     background: var(--bg-white);
     border-radius: 12px;

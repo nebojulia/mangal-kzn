@@ -3,11 +3,13 @@
         {
             "images": [
                 {"item": "instruments__kocherga.jpg" },
-                {"item": "instruments__kocherga-properties.jpg"}
+                {"item": "instruments__kocherga-properties.jpg"},
+                {"item": "instruments__savok.jpg" },
+                {"item": "instruments__savok-properties.jpg"}
             ],
-            "title": "Кочерга",
+            "title": "Кочерга и Совок",
             "href": "#",
-            "price": "15500 ₽",
+            "price": "1000 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"
@@ -19,7 +21,7 @@
             ],
             "title": "Решетка",
             "href": "#",
-            "price": "15500 ₽",
+            "price": "3000 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"
@@ -31,33 +33,21 @@
             ],
             "title": "Решетка с ручками",
             "href": "#",
-            "price": "15500 ₽",
+            "price": "3000 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"
         },
         {
             "images": [
-                {"item": "instruments__savok.jpg" },
-                {"item": "instruments__savok-properties.jpg"}
-            ],
-            "title": "Савок",
-            "href": "#",
-            "price": "15500 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
-        },
-        {
-            "images": [
-                {"item": "instruments__shampur.jpg" },
                 {"item": "instruments__shampur-2.jpg" },
+                {"item": "instruments__shampur.jpg" },
                 {"item": "instruments__shampur-3.jpg" },
                 {"item": "instruments__shampur-properties.jpg"}
             ],
             "title": "Шампур",
             "href": "#",
-            "price": "15500 ₽",
+            "price": "200 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"

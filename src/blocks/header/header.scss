@@ -33,7 +33,7 @@
     justify-content: space-around;
     width: 700px;
 
-    @media (min-width: 768px) {
+    @media (min-width: $screen-tl) {
       display: flex;
     }
   }

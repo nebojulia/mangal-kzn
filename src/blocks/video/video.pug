@@ -1,0 +1,37 @@
+//- Все примеси в этом файле должны начинаться c имени блока (video)
+
+mixin video(text, mods)
+
+  //- Принимает:
+  //-   text    {string} - текст
+  //-   mods    {string} - список модификаторов
+  //- Вызов:
+        +video('Текст', 'some-mod')
+
+  -
+    // список модификаторов
+    var allMods = '';
+    if(typeof(mods) !== 'undefined' && mods) {
+      var modsList = mods.split(',');
+      for (var i = 0; i < modsList.length; i++) {
+        allMods = allMods + ' video--' + modsList[i].trim();
+      }
+    }
+
+  .video(class=allMods)&attributes(attributes)
+    .swiper.video__slider
+      .swiper-wrapper
+        .swiper-slide
+          a.video__frame.video__frame_02(data-hystmodal='#video2')
+            svg.video__icon
+              use(xlink:href='img/svgSprite.svg#icon__play')
+        .swiper-slide
+          a.video__frame.video__frame_01(data-hystmodal='#video')
+            svg.video__icon
+              use(xlink:href='img/svgSprite.svg#icon__play')
+      .swiper-button-prev.video__prev
+        svg.swiper-icon
+          use(xlink:href='img/svgSprite.svg#icon__prev')
+      .swiper-button-next.video__next
+        svg.swiper-icon
+          use(xlink:href='img/svgSprite.svg#icon__next')

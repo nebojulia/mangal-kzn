@@ -1,0 +1,23 @@
+//- Все примеси в этом файле должны начинаться c имени блока (popup)
+
+mixin popup-video
+	.hystmodal#video(aria-hidden='true')
+		.hystmodal__wrap
+			.popup.popup_video.hystmodal__window(role='dialog', aria-modal='true')
+				button.popup__close.hystmodal__close(data-hystclose)
+					svg.svg.popup__icon
+						use(xlink:href='img/svgSprite.svg#icon__cross')
+				.popup__inner
+					.popup__video
+						a.popup__video-link(data-youtube, href='https://www.youtube.com/watch?v=4lERT0HEZjk')
+
+mixin popup-video_2
+	.hystmodal#video2(aria-hidden='true')
+		.hystmodal__wrap
+			.popup.popup_video.hystmodal__window(role='dialog', aria-modal='true')
+				button.popup__close.hystmodal__close(data-hystclose)
+					svg.svg.popup__icon
+						use(xlink:href='img/svgSprite.svg#icon__cross')
+				.popup__inner
+					.popup__video
+						a.popup__video-link(data-youtube, href='https://www.youtube.com/watch?v=4lERT0HEZjk')

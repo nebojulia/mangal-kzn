@@ -9,10 +9,8 @@
             ],
             "title": "Два полюса",
             "href": "#",
-            "price": "15500 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "price": "13500 ₽",
+            "icon": "check"
         },
         {
             "images": [
@@ -23,7 +21,7 @@
             ],
             "title": "Два полюса с крышкой гриль",
             "href": "#",
-            "price": "17500 ₽",
+            "price": "15500 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"
@@ -37,7 +35,7 @@
             ],
             "title": "Лофт",
             "href": "#",
-            "price": "15500 ₽",
+            "price": "13500 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"
@@ -51,21 +49,7 @@
             ],
             "title": "Лофт с крышкой гриль",
             "href": "#",
-            "price": "17500 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
-        },
-        {
-            "images": [
-                {"item": "mangal__elbrus.jpg"},
-                {"item": "mangal__elbrus-advantages.jpg" },
-                {"item": "mangal__elbrus-complect.jpg"},
-                {"item": "mangal__elbrus-materials.jpg"}
-            ],
-            "title": "Эльбрус",
-            "href": "#",
-            "price": "23500 ₽",
+            "price": "15500 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"
@@ -79,7 +63,7 @@
             ],
             "title": "Крепыш",
             "href": "#",
-            "price": "15500 ₽",
+            "price": "13500 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"
@@ -107,7 +91,7 @@
             ],
             "title": "Семейный",
             "href": "#",
-            "price": "15500 ₽",
+            "price": "14000 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"
@@ -121,34 +105,7 @@
             ],
             "title": "Семейный с крышкой гриль",
             "href": "#",
-            "price": "18000 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
-        },
-        {
-            "images": [
-                {"item": "mangal__turist.jpg"},
-                {"item": "mangal__turist-advantages.jpg" },
-                {"item": "mangal__turist-materials.jpg"}
-            ],
-            "title": "Турист",
-            "href": "#",
-            "price": "4000 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
-        },
-        {
-            "images": [
-                {"item": "mangal-udachnyj.jpg"},
-                {"item": "mangal-udachnyj-advantages.jpg" },
-                {"item": "mangal-udachnyj-complect.jpg"},
-                {"item": "mangal-udachnyj-materials.jpg"}
-            ],
-            "title": "Удачный",
-            "href": "#",
-            "price": "8500 ₽",
+            "price": "16000 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"
@@ -164,7 +121,7 @@
             ],
             "title": "Пикник",
             "href": "#",
-            "price": "1400 ₽",
+            "price": "1200 ₽",
             "availability": "В наличии и под заказ",
             "icon": "check",
             "guarantee": "Гарантия и доставка"
