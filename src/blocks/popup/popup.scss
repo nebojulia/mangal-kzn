@@ -1,3 +1,12 @@
 .popup {
   $block-name: &; // #{$block-name}__element
+
+  &__video-link {
+    width: 100%;
+    background: url("../img/img__video_02.jpg") no-repeat center;
+  }
+
+  &__video-icon {
+    margin: auto;
+  }
 }

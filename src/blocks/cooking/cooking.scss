@@ -23,12 +23,12 @@
   &__text {
     margin: 0;
     color: var(--color-white);
-    font-size: 28px;
+    font-size: 36px;
     text-align: center;
     text-transform: uppercase;
 
     @media (min-width: 768px) {
-      font-size: 40px;
+      font-size: 48px;
     }
   }
 }

@@ -23,7 +23,7 @@
     "deploy": "gulp deploy"
   },
   "lint-staged": {
-    "*.{js,pug,md}": "editorconfig-cli",
+    "*.{md}": "editorconfig-cli",
     "*.pug": "pug-lint",
     "*.scss": "stylelint --custom-syntax postcss-scss",
     "*.js": "eslint"

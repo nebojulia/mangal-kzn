@@ -10,9 +10,7 @@
             "title": "Кочерга и Совок",
             "href": "#",
             "price": "1000 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         },
         {
             "images": [
@@ -22,9 +20,7 @@
             "title": "Решетка",
             "href": "#",
             "price": "3000 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         },
         {
             "images": [
@@ -34,9 +30,7 @@
             "title": "Решетка с ручками",
             "href": "#",
             "price": "3000 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         },
         {
             "images": [
@@ -48,9 +42,7 @@
             "title": "Шампур",
             "href": "#",
             "price": "200 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         }        
     ]
 }

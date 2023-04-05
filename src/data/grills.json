@@ -12,9 +12,7 @@
             "title": "Богатырь",
             "href": "#",
             "price": "38000 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         }
     ]
 }

@@ -3,48 +3,34 @@
 // Очередность: http://nicothin.github.io/idiomatic-pre-CSS/#priority
 
 .video {
-  aspect-ratio: 16/10;
-  display: flex;
+  width: 1024px;
+  height: 500px;
+  //aspect-ratio: 16/10;
+  //display: flex;
+  background: url("../img/video__bg.png") no-repeat center;
+  background-size: cover;
 
-  @media screen and (min-width: $screen-t) {
-    height: 60rem;
-    background: url("../img/bg__video.jpg") no-repeat center;
-    aspect-ratio: auto;
-  }
-
-  &__slider {
-    width: 100%;
-    max-width: 64rem;
-    height: 100%;
-    max-height: 36rem;
-    margin: auto;
+  &__image {
+    width: 1440px;
   }
 
   &__frame {
     display: flex;
-    //margin: auto;
-    //max-height: 36rem;
-    //max-width: 64rem;
+    justify-content: center;
     width: 100%;
-    height: 100%;
-    //background: url('../img/img__video.jpg') no-repeat center;
-    background-size: cover;
     cursor: pointer;
-
-    &_01 {
-      background: url("../img/img__video_01.jpg") no-repeat center;
-      background-size: cover;
-    }
-
-    &_02 {
-      background: url("../img/img__video_02.jpg") no-repeat center;
-      background-size: cover;
-    }
   }
 
   &__icon {
-    width: 6.4rem;
-    height: 6.4rem;
+    width: 3.4rem;
+    height: 100%;
     margin: auto;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    width: 1024px;
+    height: 500px;
   }
 }

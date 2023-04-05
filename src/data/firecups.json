@@ -8,9 +8,7 @@
             "title": "Хоккей",
             "href": "#",
             "price": "15000 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         },
         {
             "images": [
@@ -20,9 +18,7 @@
             "title": "Куб",
             "href": "#",
             "price": "18000 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         },
         {
             "images": [
@@ -32,9 +28,7 @@
             "title": "Олень",
             "href": "#",
             "price": "7000 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         },
         {
             "images": [
@@ -44,9 +38,7 @@
             "title": "Звёзды",
             "href": "#",
             "price": "15000 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         },
         {
             "images": [
@@ -56,9 +48,7 @@
             "title": "Солнце",
             "href": "#",
             "price": "15000 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         },
         {
             "images": [
@@ -68,9 +58,7 @@
             "title": "Тайга",
             "href": "#",
             "price": "15000 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         },
         {
             "images": [
@@ -81,9 +69,7 @@
             "title": "Волк",
             "href": "#",
             "price": "13000 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         }
     ]
 }

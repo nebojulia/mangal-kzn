@@ -37,8 +37,8 @@
   }
 
   &__icon {
-    width: 16px;
-    height: 16px;
+    width: 24px;
+    height: 24px;
     color: var(--brand-primary);
   }
 
@@ -64,5 +64,10 @@
     display: flex;
     gap: 8px;
     margin: 0;
+  }
+
+  &__price {
+    align-items: center;
+    font-size: 24px;
   }
 }

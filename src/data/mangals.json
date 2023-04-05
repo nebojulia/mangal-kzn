@@ -22,9 +22,7 @@
             "title": "Два полюса с крышкой гриль",
             "href": "#",
             "price": "15500 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         },
         {
             "images": [
@@ -36,9 +34,7 @@
             "title": "Лофт",
             "href": "#",
             "price": "13500 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         },
         {
             "images": [
@@ -50,9 +46,7 @@
             "title": "Лофт с крышкой гриль",
             "href": "#",
             "price": "15500 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         },
         {
             "images": [
@@ -64,9 +58,7 @@
             "title": "Крепыш",
             "href": "#",
             "price": "13500 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         },
         {
             "images": [
@@ -78,9 +70,7 @@
             "title": "Профи",
             "href": "#",
             "price": "9500 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         },
         {
             "images": [
@@ -92,9 +82,7 @@
             "title": "Семейный",
             "href": "#",
             "price": "14000 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         },
         {
             "images": [
@@ -106,9 +94,7 @@
             "title": "Семейный с крышкой гриль",
             "href": "#",
             "price": "16000 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         },
         {
             "images": [
@@ -122,9 +108,7 @@
             "title": "Пикник",
             "href": "#",
             "price": "1200 ₽",
-            "availability": "В наличии и под заказ",
-            "icon": "check",
-            "guarantee": "Гарантия и доставка"
+            "icon": "check"
         }
     ]
 }
