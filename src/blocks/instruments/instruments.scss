@@ -10,11 +10,15 @@
 
   &__header {
     color: white;
-    font-size: 42px;
+    font-size: 32px;
     text-align: center;
     text-transform: uppercase;
     background: var(--brand-primary);
     border-radius: 20px;
+
+    @media (min-width: 968px) {
+      font-size: 42px;
+    }
   }
 
   &__list {

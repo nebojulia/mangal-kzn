@@ -23,7 +23,7 @@ mixin footer(mods)
         .footer__info
           each section in footer.section
             .footer__section
-              a.footer__section-title.link!= section.title
+              .footer__section-title.link!= section.title
               if section.list
                 ul.footer__list
                   each item in section.list

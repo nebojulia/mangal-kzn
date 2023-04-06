@@ -8,4 +8,12 @@
   @media screen and (min-width: $screen-t) {
     width: calc(100% - 8rem);
   }
+
+  @media screen and (min-width: $screen-d) {
+    width: calc(100% - 16rem);
+  }
+
+  @media screen and (min-width: $screen-dxl) {
+    width: calc(100% - 32rem);
+  }
 }

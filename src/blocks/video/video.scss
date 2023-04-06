@@ -3,14 +3,14 @@
 // Очередность: http://nicothin.github.io/idiomatic-pre-CSS/#priority
 
 .video {
-  aspect-ratio: 16/10;
-  width: 100%;
-  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("../img/video__bg.png") no-repeat center;
+  width: 100%;
+  height: auto;
+  background: url("../img/video__bg.jpg") no-repeat center;
   background-size: cover;
+  aspect-ratio: 16/8;
 
   &__icon {
     width: 64px;
@@ -18,8 +18,8 @@
   }
 
   &__container {
-    aspect-ratio: 16/10;
     width: 100%;
     height: auto;
+    aspect-ratio: 16/8;
   }
 }

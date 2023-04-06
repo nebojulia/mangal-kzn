@@ -5,10 +5,21 @@
 
   &__inner {
     align-items: left;
-    padding: 40px 32px;
 
-    @media (min-width: 992px) {
-      padding: 70px 32px;
+    @media (min-width: $screen-tl) {
+      padding: 70px 160px;
+    }
+
+    @media (min-width: $screen-d) {
+      padding: 70px 260px;
+    }
+
+    @media (min-width: $screen-dl) {
+      padding: 70px 300px;
+    }
+
+    @media (min-width: $screen-dxl) {
+      padding: 70px 340px;
     }
   }
 

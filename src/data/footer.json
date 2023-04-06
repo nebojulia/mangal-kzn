@@ -2,22 +2,25 @@
     "section": [
         {
             "title": "Услуги",
-            "href": "#",
             "list": [
                 {
                     "title": "Мангалы",
+                    "href": "#mangals",
                     "icon": "footer__dot"
                 },
                 {
                     "title": "Гриль-Барбекю",
+                    "href": "#grills",
                     "icon": "footer__dot"
                 },
                 {
                     "title": "Костровые чаши",
+                    "href": "#firecups",
                     "icon": "footer__dot"
                 },
                 {
                     "title": "Комплектующие",
+                    "href": "#instruments",
                     "icon": "footer__dot"
                 }
             ]
@@ -39,10 +42,6 @@
                     "title": "8-904-765-98-87",
                     "icon": "footer__whatsapp",
                     "href": "https://wa.me/79047659887"
-                },
-                {
-                    "title": "mangal116kazan@yandex.ru",
-                    "icon": "footer__mail"
                 }
             ]
         },
@@ -51,7 +50,7 @@
             "href": "#",
             "list": [
                 {
-                    "title": "Пн - Пт 09.00-17.00",
+                    "title": "Пн - Пт 09.00-16.00",
                     "icon": "footer__clock"
                 },
                 {
@@ -71,6 +70,5 @@
         {
             "title": "Сайт «mangal-men.ru» использует файлы cookies и сервисы сбора технических данных посетителей (данные об IP-адресе, местоположении и др.) для обеспечения работоспособности и улучшения качества обслуживания. Продолжая использовать наш сайт, вы автоматически соглашаетесь с использованием данных технологий."
         }
-    ],
-    "data": "String from json"
+    ]
 }

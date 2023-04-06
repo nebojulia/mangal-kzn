@@ -14,13 +14,14 @@
 
   &__main {
     flex: 1 0 auto;
-    padding-top: 66px;
+    padding-top: 50px;
 
     @media screen and (min-width: $screen-ti) {
       padding-left: 0;
     }
 
     @media screen and (min-width: $screen-dl) {
+      padding-top: 66px;
       padding-left: 0;
     }
   }
