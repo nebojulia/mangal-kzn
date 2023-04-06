@@ -6,11 +6,16 @@
 
   &__list {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
     align-items: center;
     justify-content: center;
     margin: -130px 0 70px;
     padding: 0;
+
+    @media (min-width: $screen-d) {
+      flex-wrap: nowrap;
+    }
   }
 
   &__card {

@@ -1,14 +1,14 @@
 .cooking {
   $block-name: &; // #{$block-name}__element
 
-  height: 220px;
+  height: 180px;
   background-image: url("/img/site__bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 
   @media (min-width: 768px) {
-    height: 250px;
+    height: 210px;
   }
 
   &__inner {
@@ -17,7 +17,6 @@
     justify-content: center;
     height: 100%;
     padding: 0 32px;
-    padding-top: 20px;
   }
 
   &__text {
