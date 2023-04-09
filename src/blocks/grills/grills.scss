@@ -1,11 +1,11 @@
 .grills {
   $block-name: &; // #{$block-name}__element
 
-  padding: 24px 16px;
+  padding: 44px 16px 0;
   background: var(--bg-gray);
 
   @media (min-width: 968px) {
-    padding: 24px 64px;
+    padding: 64px 64px 0;
   }
 
   &__header {
@@ -27,6 +27,7 @@
     gap: 24px;
     align-items: center;
     justify-content: center;
+    margin: 0;
     margin-top: 50px;
     padding: 0;
   }

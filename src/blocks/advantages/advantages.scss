@@ -7,19 +7,19 @@
     align-items: left;
 
     @media (min-width: $screen-tl) {
-      padding: 70px 160px;
+      padding: 70px 160px 0;
     }
 
     @media (min-width: $screen-d) {
-      padding: 70px 260px;
+      padding: 70px 260px 0;
     }
 
     @media (min-width: $screen-dl) {
-      padding: 70px 300px;
+      padding: 70px 300px 0;
     }
 
     @media (min-width: $screen-dxl) {
-      padding: 70px 340px;
+      padding: 70px 340px 0;
     }
   }
 

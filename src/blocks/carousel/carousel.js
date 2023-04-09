@@ -6,6 +6,7 @@ ready(function () {
   sliders.forEach((el) => {
     new Swiper(el, {
       modules: [Navigation, Pagination],
+      lazu: true,
       loop: true,
       pagination: {
         el: ".swiper-pagination",
